@@ -1,3 +1,11 @@
+
+A new column next to Game, Network, etc.: possible in theory, but very hard, and I couldn't find any existing tool that does it.
+- The columns are built into the XMB's own system files, so adding one means reverse-engineering those internals. A mistake could crash the XMB at startup.
+- Realistic alternative 1: write our own XMB plugin, like ARK's XMB Control, that adds as many items as we want, with our own names, to existing columns.
+- Realistic alternative 2: rename and re-icon an existing column with a custom theme. Old tools like CXMB did this with themes (CXMB (https://intimail.servindi.org/cxmb-psp-gamebrew.html), VSHmain Editor (https://gamergen.com/actualites/vshmain-editor-v2-0-utilitaire-customisation-vsh-28295-1/amp)). I haven't checked whether your ARK supports those themes.
+
+
+
 # custom-app-psp
 
 A Hello World homebrew for the Sony PSP that opens straight from the XMB,
